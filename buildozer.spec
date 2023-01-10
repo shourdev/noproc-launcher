@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Developer-Joke
+title = satis-dist
 
 # (str) Package name
-package.name = Developer-Joke
+package.name = satis-dist
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = projects.shourgamer2.tk
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-source.include_exts = py,png,jpg,kv,atlas,pyjokes,random
+source.include_exts = py,png,jpg,kv,atlas
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
@@ -82,14 +82,14 @@ fullscreen = 0
 
 
 # (list) Permissions
-#android.permissions = INTERNET
+android.permissions = SET_WALLPAPER,SET_WALLPAPER_HINTS
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
 android.api = 28
-
+android.manifest = android.intent.category.HOME android.intent.category.DEFAULT
 # (int) Minimum API your APK will support.
 #android.minapi = 21
 
