@@ -7,7 +7,7 @@ title = satis-dist
 package.name = satis-dist
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = projects.shourgamer2.tk
+package.domain = com.shour.satis-dist
 
 # (str) Source code where the main.py live
 source.dir = src/
@@ -64,7 +64,7 @@ orientation = portrait
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 2.1.0
+osx.kivy_version = 2.1.0 
 
 #
 # Android specific
@@ -88,7 +88,7 @@ android.permissions = SET_WALLPAPER,SET_WALLPAPER_HINTS
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-android.api = 28
+android.api = 21
 android.manifest = android.intent.category.HOME android.intent.category.DEFAULT
 # (int) Minimum API your APK will support.
 #android.minapi = 21
