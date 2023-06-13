@@ -1,2 +1,2 @@
-# satis-dist-launcher
+# noproc-launcher
 A launcher which helps you not procrastinate, seriously
